@@ -1,0 +1,38 @@
+.keysdisplay {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  background-color: white;
+  height: 200px;
+  width: 250px;
+}
+
+.drum-pad {
+  padding: 40px;
+  text-align: center;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(126, 69, 69);
+}
+
+.wrapper {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.para {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  width: 200px
+}
