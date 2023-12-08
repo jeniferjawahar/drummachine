@@ -85,7 +85,6 @@ function App() {
   const [power, setPower] = useState(true);
   const [mname, setMname] = useState("");
 
-  let audio = "";
   // function detectKey(e) {
   //   let reqKey = audioObj.find((el) => el.key === e.key);
   //   if (reqKey) {

@@ -24,7 +24,7 @@ export default function Keypad({
     return () => {
       window.removeEventListener("keydown", onKeyPress);
     };
-  }, []);
+  });
 
   // useKeyPress(["Q", "W"], audioPlay);
 
